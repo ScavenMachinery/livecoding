@@ -1,0 +1,26 @@
+d1  $ rev
+    $ sometimes (hurry 4)
+    $ slow 8
+    $ s "superpiano" <| n "c d f4 g a c6 d f6 g6 a6 c7 cda"
+      # lpf 800 # amp 0.3 # room 1 # legato 1
+
+d2  $ rev
+    $ slow 12
+    $ chop 2
+    $ s "superpiano" <| n "cda age e b a4 c"
+      # lpf 200 # amp 1 # legato 1
+      
+hush 
+
+
+d2  $ rev
+    $ slow 8
+    $ chop 4
+    $ s "superpiano" <| n "cda age e b a4 c b g e"
+      # lpf 1000 # amp 1 # legato 1 # delay 0.8
+
+d1  $ rev
+    $ sometimes (hurry 4)
+    $ slow 4
+    $ s "superpiano" <| n "c d f4 g a c6 d f6 g6 a6 c7 cda"
+      # lpf 800 # amp 1 # room 1 # legato 1  # attack 0.2 # release 0.1
