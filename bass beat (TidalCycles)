@@ -1,0 +1,16 @@
+d1  $ sometimes (fast 2)
+    $ every 6 (hurry 2)
+    $ sound "bass*4"
+    # speed "2 4 3 1"
+    # decay 0.1
+    # delay 0.6
+    
+d2 $ sound "hh*8"
+    # amp 0.2
+
+d3  $ sometimes (fast 2)
+    $ sound "bd*4"
+    # lpf 6000
+    # amp 0.5
+
+hush
